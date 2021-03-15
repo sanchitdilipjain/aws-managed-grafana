@@ -1,15 +1,12 @@
 ## AWS Managed Service For Grafana
 
 **Introduction**
-- Amazon Managed Service for Grafana (AMG) is a fully managed and secure data visualization service that enables customers to instantly query, correlate, and visualize operational metrics, logs, and traces for their applications from multiple data sources. AMG is based on the open source Grafana project, a widely deployed data visualization tool popular for its extensible data source support. 
-- Customers also benefit from built-in security features that enable compliance with governance requirements, including single sign-on, fine-grained data access control, and audit reporting. 
-- AMG is integrated with AWS data sources that collect operational data, such as Amazon CloudWatch, Amazon Elasticsearch Service, Amazon Timestream, AWS IoT SiteWise, AWS X-Ray, and Amazon Managed Service for Prometheus (AMP), and provides plug-ins to popular open-source databases, third-party ISV monitoring tools, as well as other cloud services. 
-- With AMG you can easily visualize information from multiple AWS services, AWS accounts, and Regions in a single Grafana dashboard.
+- Amazon Managed Service for Grafana (AMG) is a completely managed service that allows defining query, relations, and depicts trends, logs, and traces for the applications from various sources like  Amazon CloudWatch, Amazon Elasticsearch Service, Amazon Timestream, AWS IoT SiteWise, AWS X-Ray, and Amazon Managed Service for Prometheus (AMP) and provides plug-ins to popular open-source databases, third-party ISV monitoring tools, as well as other cloud services. 
+- It also provides features like single sign-on, fine-grained data access control, and audit reporting out of the box 
 - This tutorial is divided into below sections
     - Create Workspace
     - Add User
     - Query metrics/logs from AWS Cloudwatch
-
 
 **Tutorial**
 
@@ -31,7 +28,7 @@
   
      <img src="images/image3.png" class="inline"/>
   
-  5. In this section, you can choose to deploy Grafana to track resources in the current account or across multiple AWS accounts by selcting the Organization option and click Next
+  5. In this section, you can choose to deploy Grafana to track resources in the current account or across multiple AWS accounts by selecting the Organization option and click Next
   
      <img src="images/image4.png" class="inline"/>
   
@@ -47,13 +44,13 @@
      
      <img src="images/image7.png" class="inline"/>
   
-  2. By default, all newly assigned users are added as Viewers that only provides read-only permissions on Grafana. To make the user as Administrator, select the user under Users and select Make admin. Now you should see that the user is an Administrator.
+  2. By default, all newly assigned users are added as Viewers that only provide read-only permissions on Grafana. To make the user as Administrator, select the user under Users and select Make admin. Now you should see that the user is an Administrator.
 
      <img src="images/image8.png" class="inline"/>
 
 - Step 3. Query metrics/logs from AWS Cloudwatch
  
-  1. CLick the Grafana workspace URL from the workspace we deployed above
+  1. Click the Grafana workspace URL from the workspace we deployed above
 
   2. Authenticated yourself via AWS SSO
   
@@ -63,7 +60,7 @@
   
       <img src="images/image10.png" class="inline"/> 
   
-  4. Select CloudWatch as the datasource from the AWS Data Sources screen
+  4. Select CloudWatch as the data source from the AWS Data Sources screen
   
       <img src="images/image11.png" class="inline"/> 
      
@@ -75,11 +72,11 @@
   
       <img src="images/image13.png" class="inline"/> 
   
-  7. The CloudWatch data source plugin comes with a few of dashboards build-in  
+  7. The CloudWatch data source plugin comes with a few dashboards build-in  
   
       <img src="images/image14.png" class="inline"/> 
     
-  8. Select on Import on the dashboards as shown below
+  8. Select Import on the dashboards as shown below
   
       <img src="images/image15.png" class="inline"/> 
   
