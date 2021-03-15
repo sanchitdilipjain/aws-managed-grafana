@@ -9,7 +9,7 @@
     - Create Workspace
     - Add User
     - Query metrics/logs from AWS Cloudwatch
-    - Query X-RAY trace Data
+
 
 **Tutorial**
 
@@ -50,3 +50,54 @@
   2. By default, all newly assigned users are added as Viewers that only provides read-only permissions on Grafana. To make the user as Administrator, select the user under Users and select Make admin. Now you should see that the user is an Administrator.
 
      <img src="images/image8.png" class="inline"/>
+
+- Step 3. Query metrics/logs from AWS Cloudwatch
+ 
+  1. CLick the Grafana workspace URL from the workspace we deployed above
+
+  2. Authenticated yourself via AWS SSO
+  
+    <img src="images/image9.png" class="inline"/> 
+    
+  3. Click AWS services from the AWS logo on the left navigation bar, which allow you to add Data Source
+  
+    <img src="images/image10.png" class="inline"/> 
+  
+  4. Select CloudWatch as the datasource from the AWS Data Sources screen
+  
+    <img src="images/image11.png" class="inline"/> 
+     
+  5. Select the AWS Region and click on Add data source to add CloudWatch as a data source
+  
+    <img src="images/image12.png" class="inline"/> 
+    
+  6. Next click on Go to settings and select the Dashboards tab and verify the connection 
+  
+    <img src="images/image13.png" class="inline"/> 
+  
+  7. The CloudWatch data source plugin comes with a few of dashboards build-in  
+  
+    <img src="images/image14.png" class="inline"/> 
+    
+  8. Select on Import on the dashboards as shown below
+  
+    <img src="images/image15.png" class="inline"/> 
+  
+  9. Next we will check the metrics and logs being visualized.
+  
+    - EC2 
+    
+        <img src="images/image16.png" class="inline"/> 
+      
+    - EBS
+      
+        <img src="images/image17.png" class="inline"/> 
+      
+    - Lambda
+      
+        <img src="images/image18.png" class="inline"/> 
+      
+    - RDS
+      
+        <img src="images/image19.png" class="inline"/> 
+      
