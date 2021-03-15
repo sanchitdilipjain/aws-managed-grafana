@@ -57,31 +57,31 @@
 
   2. Authenticated yourself via AWS SSO
   
-    <img src="images/image9.png" class="inline"/> 
+      <img src="images/image9.png" class="inline"/> 
     
   3. Click AWS services from the AWS logo on the left navigation bar, which allow you to add Data Source
   
-    <img src="images/image10.png" class="inline"/> 
+      <img src="images/image10.png" class="inline"/> 
   
   4. Select CloudWatch as the datasource from the AWS Data Sources screen
   
-    <img src="images/image11.png" class="inline"/> 
+      <img src="images/image11.png" class="inline"/> 
      
   5. Select the AWS Region and click on Add data source to add CloudWatch as a data source
   
-    <img src="images/image12.png" class="inline"/> 
+      <img src="images/image12.png" class="inline"/> 
     
   6. Next click on Go to settings and select the Dashboards tab and verify the connection 
   
-    <img src="images/image13.png" class="inline"/> 
+      <img src="images/image13.png" class="inline"/> 
   
   7. The CloudWatch data source plugin comes with a few of dashboards build-in  
   
-    <img src="images/image14.png" class="inline"/> 
+      <img src="images/image14.png" class="inline"/> 
     
   8. Select on Import on the dashboards as shown below
   
-    <img src="images/image15.png" class="inline"/> 
+      <img src="images/image15.png" class="inline"/> 
   
   9. Next we will check the metrics and logs being visualized.
   
